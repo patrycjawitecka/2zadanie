@@ -60,14 +60,6 @@ namespace _2zadanie
             return med;
         }
 
-        //tutaj dupa się zaczyna
-        //  public float GiveRating()
-        //{
-        //    for (int i = 0; i < ratings.Count; i++)
-        //    {
-        //       Console.WriteLine(ratings[i]);
-        //    }
-        //}
         public void GiveRating()
         {
             if (ratings.Count > 0)
