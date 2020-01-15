@@ -59,19 +59,33 @@ namespace _2zadanie
 
             return med;
         }
-      
+
         //tutaj dupa się zaczyna
-          public float GiveRating()
+        //  public float GiveRating()
+        //{
+        //    for (int i = 0; i < ratings.Count; i++)
+        //    {
+        //       Console.WriteLine(ratings[i]);
+        //    }
+        //}
+        public void GiveRating()
         {
+            if (ratings.Count > 0)
             for (int i = 0; i < ratings.Count; i++)
             {
-               Console.WriteLine(ratings[i]);
+                Console.WriteLine(ratings[i]);
+            }
+            else
+            {
+                Console.WriteLine("Nie mamy jeszcze pełnej listy!!!");
+
             }
         }
-        
-           
+    }
 }
 
-        
+
+
+
 
 

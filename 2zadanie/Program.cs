@@ -26,10 +26,10 @@ namespace _2zadanie
                
             }
 
-           
+
             //dopisacwyświetlanie pbranych liczb, ich ilość
             //wyświetlanie liczb: Console.WriteLine(result);
-            Console.WriteLine("Wprowadzone liczby to:" + calc.GiveRating());
+            Console.WriteLine("Wprowadzone liczby to: ");calc.GiveRating();
             Console.WriteLine("Ilość wprowadzonych liczb to:" + calc.GiveCountRating());
             Console.WriteLine("średnia twoich liczb to:" + calc.CalculateAverage());
             Console.WriteLine("najwyższa liczba to:" + calc.GiveMaxRating());
